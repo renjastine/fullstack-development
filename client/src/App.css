@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-r { 
+  display: flex;
+}
+
+.flex-c { 
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-block: 50px;
+  gap: 90px;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 0 5px 10px #0000004a;
+}
+
+.title, .username {
+  color: #fff;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b84fe;
+}
+
+.body {
+  padding-block: 50px;
+}

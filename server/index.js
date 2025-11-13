@@ -4,6 +4,7 @@ const db = require("./models");
 
 const app = express();
 app.use(express.json());
+app.use(cors())
 
 // Routers
 const postRouter = require("./routes/Posts.js")
